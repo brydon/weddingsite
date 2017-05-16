@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>Brydon and Tabby - August 12th, 2017</title>
+
+	<link href="fixed-positioning.css" rel="stylesheet" type="text/css" />
+	<link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="bg1" data-0="opacity:1;background-position:0% 0%;" data-500="opacity:1;background-position:0% 50%;" data-1000="background-position:0% 100%;" data-1500="opacity:0;background-position:0% 150%;"></div>
+
+	<div id="progress" data-0="width:0%;background:rgb(0,0,0);" data-end="width:100%;background:rgb(166,31,52);"></div>
+
+	<div id="intro" data-0="opacity:1;top:0%;" data-500="opacity:1;top:0%;" data-1000="opacity:1;top:-20%;" data-1500="opacity:0;top:-40%;">
+		<div id="introwrapper">
+			<h1>Aug 12, 2017</h1>
+			<p>Click a link or scroll down to start</p>
+		</div>
+	</div>
+
+	<div id="about" data-1250="opacity:0; left:50%;" data-1750="opacity:1; left:50%" data-2000="opacity:1;left:0%;top:0%;" data-2500="top:-100%">
+		<div id="abouttext">
+			<div>
+				<h1>About the Couple</h1>
+				<p>Brydon and Tabby met in 2011 at Redeemer, within the year they were dating. In 2015 they got engaged and have been 	patiently awaiting their wedding day, but it's almost here! August 12th can't come quick enough.</p>
+			</div>
+		</div>
+		<div id="aboutimage"></div>
+	</div>
+
+	<div id="ceremonysunny" data-2000="top:100%;" data-2500="top:0%" data-3000="top:-100%;">
+		<div>
+			<p> Here I'll have some pretty text and graphics with dotted lines and suns explaining that the ceremony will be outside at Dundurn if the weather is sunny. A link to directions. </p>
+		</div>
+	</div>
+
+	<div id="ceremonyrainy" data-2500="top:100%;opacity:1;" data-3000="top:0%;opacity:1;" data-3500="opacity:0;">
+		<div>
+			<p> Here I'll have some pretty text and graphics with dotted lines and rain clouds explaining that the ceremony will be inside at MacNab if the weather is sunny. A link to directions. </p>
+		</div>
+	</div>
+
+	<div id="reception" data-3750="opacity:0;top:0%;" data-4250="opacity:1;top:0%;" data-4750="opacity:1;top:-100%">
+		<div id="receptiontext">
+			<div>
+				<h1> Reception </h1>
+				<p> A time of eating dancing &amp; celebration will follow at 5:30 PM at </p>
+				<p><a href="#" target="_blank" title="Directions">The Lakeview (180 Van Wagner's Beach Rd, Hamilton)</a></p>
+			</div>
+		</div>
+		<div id="receptionimage">
+
+		</div>
+	</div>
+
+	<div id="rsvpbg" data-start="opacity:0"; data-4250="opacity:0" data-4251="opacity:1">
+	</div>
+
+	<div id="rsvp" data-5000="top:100%" data-5500="top:0%">
+		<div id="rsvpwrapper">
+			<div id="rsvpform">
+				Here will be a form where we RSVP and shit.
+			</div>
+			<div id="rsvptext">
+				Here will be some info about gifts maybe.
+			</div>
+		</div>
+	</div>
+
+	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
+
+	<script data-main="scripts/main" src="scripts/require.js"></script>
+
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="dist/skrollr.ie.min.js"></script>
+	<![endif]-->
+</body>
+
+</html>

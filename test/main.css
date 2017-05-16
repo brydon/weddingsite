@@ -107,9 +107,11 @@ h4 {
 }
 
 #introwrapper {
-	width:30%;
+	width:425px;
+	margin-left:-25px;
 	padding:10px;
 	background-color:rgba(0,0,0,0.3);
+	border-radius:25px;
 }
 
 #about {
@@ -221,7 +223,7 @@ h4 {
 #rsvpbg {
 	width:100%;
 	height: 100%;
-	background-image: url(images/BrydonTabby.jpg);
+	background-image: url(images/TreesPic.jpg);
 	background-size:cover;
 	z-index:-1;
 }
@@ -237,17 +239,66 @@ h4 {
 	width:50%;
 	height:50%;
 	background-color:rgba(0,0,0,0.5);
-	border-radius: 25px;
 }
 
-#rsvpform {
-	width:49%;
-	height:100%;
-	float:left;
+
+
+#rsvpform{
+    font-family: 'Open Sans Condensed', arial, sans;
+    width: 100%;
+		height:100%;
 }
-#rsvptext {
-	width:49%;
-	height:100%;
-	float:right;
-	border-left:1px dashed #d3d3d3;
+
+#rsvpform input[type="text"], #rsvpform textarea {
+	color:#fff;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-bottom: 10px;
+  font: 16px Arial, Helvetica, sans-serif;
+  height: 45px;
+}
+
+#rsvpform textarea {
+    resize:none;
+    overflow: hidden;
+		height:60px;
+}
+
+#rsvpform input[type="button"], #rsvpform input[type="submit"] {
+    background-color: #1D7373;
+    border: 1px solid #5CCCCC;
+		margin:15px 5px 0;
+		float:right;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#rsvpform input[type="button"]:hover,
+#rsvpform input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+    background-color:#34CACA;
+}
+
+#rsvpform h2 {
+    background: #4D4D4D;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 20px;
+
 }

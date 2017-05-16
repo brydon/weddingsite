@@ -13,18 +13,18 @@
 </head>
 
 <body>
-	<div id="bg1" data-0="opacity:1;background-position:0% 0%;" data-500="opacity:1;background-position:0% 50%;" data-1000="background-position:0% 100%;" data-1500="opacity:0;background-position:0% 150%;"></div>
+	<div id="bg1" data-0="opacity:1;background-position:0% 0%;display:inline;" data-500="opacity:1;background-position:0% 50%;display:inline;" data-1000="background-position:0% 100%;display:inline;" data-1500="opacity:0;background-position:0% 150%;display:none;"></div>
 
 	<div id="progress" data-0="width:0%;background:rgba(0,0,0,0.5);" data-end="width:100%;background:rgba(0,0,0,0.5);"></div>
 
-	<div id="intro" data-0="opacity:1;top:0%;" data-500="opacity:1;top:0%;" data-1000="opacity:1;top:-20%;" data-1500="opacity:0;top:-40%;">
+	<div id="intro" data-0="opacity:1;top:0%;display:inline;" data-500="opacity:1;top:0%;display:inline;" data-1000="opacity:1;top:-20%;display:inline;" data-1500="opacity:0;top:-40%;display:none;">
 		<div id="introwrapper">
 			<h1>August 12, 2017</h1>
 			<p>Click a link or scroll down to start</p>
 		</div>
 	</div>
 
-	<div id="about" data-1250="opacity:0; left:50%;" data-1750="opacity:1; left:50%" data-2000="opacity:1;left:0%;top:0%;" data-2250="opacity:1;left:0%;top:0%;" data-2750="top:-100%">
+	<div id="about" data-start="display:none;" data-1250="opacity:0; left:50%;display:inline;" data-1750="opacity:1; left:50%;display:inline;" data-2000="opacity:1;left:0%;top:0%;display:inline;" data-2250="opacity:1;left:0%;top:0%;display:inline;" data-2750="top:-100%;display:none;">
 		<div id="abouttext">
 			<div>
 				<h1>About the Couple</h1>
@@ -34,7 +34,7 @@
 		<div id="aboutimage"></div>
 	</div>
 
-	<div id="ceremonysunny" data-2250="top:100%;" data-2750="top:0%" data-3000="top:0%" data-3500="top:-100%;">
+	<div id="ceremonysunny" data-start="display:none" data-2250="top:100%;display:inline;" data-2750="top:0%;display:inline;" data-3000="top:0%;display:inline;" data-3500="top:-100%;display:none;">
 		<div class="wrapper">
 			<div>
 				<h1> Ceremony </h1>
@@ -45,7 +45,7 @@
 		</div>
 	</div>
 
-	<div id="ceremonyrainy" data-3000="top:100%;opacity:1;" data-3500="top:0%;opacity:1;" data-3750="top:0%;opacity:1;" data-4250="opacity:0;">
+	<div id="ceremonyrainy" data-start="display:none" data-3000="top:100%;opacity:1;display:inline;" data-3500="top:0%;opacity:1;" data-3750="top:0%;opacity:1;" data-4250="opacity:0;display:none;">
 		<div class="wrapper">
 			<div>
 				<h1> Ceremony </h1>
@@ -57,7 +57,7 @@
 		</div>
 	</div>
 
-	<div id="reception" data-3750="opacity:0;top:0%;" data-4250="opacity:1;top:0%;" data-4500="opacity:1;top:0%;" data-5000="opacity:1;top:-100%">
+	<div id="reception" data-start="display:none" data-3750="opacity:0;top:0%;display:inline" data-4250="opacity:1;top:0%;" data-4500="opacity:1;top:0%;" data-5000="opacity:1;top:-100%;display:none">
 		<div id="receptiontext">
 			<div>
 				<h1> Reception </h1>
@@ -71,10 +71,10 @@
 		</div>
 	</div>
 
-	<div id="rsvpbg" data-start="opacity:0"; data-4250="opacity:0" data-4251="opacity:1">
+	<div id="rsvpbg" data-start="opacity:0;display:none;"; data-4250="opacity:0;display:inline;" data-4251="opacity:1;">
 	</div>
 
-	<div id="rsvp" data-5250="top:100%" data-5750="top:0%">
+	<div id="rsvp" data-start="display:none" data-5250="top:100%;display:inline;" data-5750="top:0%">
 		<div id="rsvpwrapper">
 			<div id="rsvpform">
 				<h2>RSVP</h2>

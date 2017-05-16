@@ -55,6 +55,8 @@ h2 {
 	background:#444;
 	bottom:0;
 	z-index:200;
+	border-top:1px solid rgba(150,150,150,0.5);
+	border-right:1px solid rgba(150,150,150,0.5);
 }
 
 #scrollbar {

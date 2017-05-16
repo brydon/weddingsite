@@ -107,11 +107,11 @@ h4 {
 }
 
 #introwrapper {
-	width:425px;
-	margin-left:-25px;
+	width:415px;
+	margin-left:-15px;
 	padding:10px;
 	background-color:rgba(0,0,0,0.3);
-	border-radius:25px;
+	border-radius:15px;
 }
 
 #about {

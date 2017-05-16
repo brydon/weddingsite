@@ -37,36 +37,18 @@ q {
 
 h1 {
 	font-size:2.91em;
-	margin:0;
+	margin:10px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
-h1 > small {
-	text-align:right;
-	display:inline-block;
-	font-size:.71em;
-	text-indent:15em;
-	color:#444;
-}
 
 h2 {
 	color:inherit;
 	font-size:1.91em;
-	margin:2em 0 1em 0;
+	margin:0 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
-h2:first-child {margin-top:0;}
-
-h3 {
-	color:#333;
-	font-size:1.41em;
-	margin:1em 0;
-}
-
-h4 {
-	color:#444;
-	font-size:1.11em;
-	margin:1em 0;
-}
 
 #progress {
 	height:2%;
@@ -92,6 +74,7 @@ h4 {
 #bg1 {
 	background-image:url(images/BeachPic.jpg);
 	background-size:cover;
+	background-repeat: no-repeat;
 	height:100%;
 	width:100%;
 	top:0;
@@ -150,11 +133,38 @@ h4 {
   background: linear-gradient(rgb(255,255,0), rgb(135,206,350)); /* Standard syntax */
 }
 
-#ceremonysunny div {
+#ceremonysunny a {
+	color:#333;
+	text-decoration: none;
+	font-style: italic;
+	border-bottom: 1px dotted #333;
+	margin-left: 25px;
+}
+
+#ceremonysunny a:hover {
+	color:#000;
+	text-decoration: none;
+	font-style: italic;
+	border-bottom: 1px dotted black;
+}
+
+
+#ceremonysunny .wrapper {
+	width:100%;
+	height:100%;
+	background-image: url(images/yellowbg1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+
+#ceremonysunny .wrapper div {
 	width:50%;
 	height:100%;
 	float:right;
 	color:#000;
+	margin-top:12%;
+	z-index: 20;
 }
 
 #ceremonyrainy {
@@ -167,11 +177,36 @@ h4 {
   background: linear-gradient(rgb(135,206,350),rgb(25,25,112)); /* Standard syntax */
 }
 
-#ceremonyrainy div {
+#ceremonyrainy .wrapper {
+	width:100%;
+	height:100%;
+	background-image: url(images/yellowbg2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+
+#ceremonyrainy .wrapper div {
 	width:50%;
 	height:100%;
 	float:left;
 	color:#fff;
+	margin-top: 5%;
+	margin-left:15px;
+	z-index: 20;
+}
+
+#ceremonyrainy a {
+	color:#d3d3d3;
+	margin-left: 25px;
+	text-decoration: none;
+	font-style: italic;
+	border-bottom: 1px dotted #d3d3d3;
+}
+
+#ceremonyrainy a:hover {
+	color:#fff;
+	border-bottom-color: #fff;
 }
 
 #reception {
@@ -187,7 +222,7 @@ h4 {
 }
 
 #receptiontext div {
-	padding:50px 30px;
+	padding:75px 30px;
 }
 
 #receptiontext h1 {
@@ -218,6 +253,7 @@ h4 {
 	float:left;
 	background-image: url(images/Lakeview.jpg);
 	background-size:cover;
+	background-repeat: no-repeat;
 }
 
 #rsvpbg {
@@ -225,6 +261,7 @@ h4 {
 	height: 100%;
 	background-image: url(images/TreesPic.jpg);
 	background-size:cover;
+	background-repeat: no-repeat;
 	z-index:-1;
 }
 
@@ -237,7 +274,7 @@ h4 {
 	margin-left:25%;
 	margin-top:12%;
 	width:50%;
-	height:50%;
+	height:313px;
 	background-color:rgba(0,0,0,0.5);
 }
 
@@ -297,6 +334,7 @@ h4 {
     text-transform: uppercase;
     font-family: 'Open Sans Condensed', sans-serif;
     color: #FFF;
+		margin:0;
     font-size: 24px;
     font-weight: 300;
     padding: 20px;

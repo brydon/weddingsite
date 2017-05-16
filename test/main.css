@@ -128,11 +128,11 @@ h2 {
 #ceremonysunny {
 	width:100%;
 	height:100%;
-	background-color:rgb(255,255,0);
-	background: -webkit-linear-gradient(rgb(255,255,0), rgb(135,206,350)); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(rgb(255,255,0), rgb(135,206,350)); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(rgb(255,255,0), rgb(135,206,350)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgb(255,255,0), rgb(135,206,350)); /* Standard syntax */
+	background-color:rgb(249,184,31);
+	background: -webkit-linear-gradient(rgb(249,184,31), rgb(135,206,350)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgb(249,184,31), rgb(135,206,350)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgb(249,184,31), rgb(135,206,350)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgb(249,184,31), rgb(135,206,350)); /* Standard syntax */
 }
 
 #ceremonysunny a {
@@ -172,11 +172,11 @@ h2 {
 #ceremonyrainy {
 	width:100%;
 	height:100%;
-	background-color:rgb(25,25,112);
-	background: -webkit-linear-gradient(rgb(135,206,350),rgb(25,25,112)); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(rgb(135,206,350),rgb(25,25,112)); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(rgb(135,206,350),rgb(25,25,112)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgb(135,206,350),rgb(25,25,112)); /* Standard syntax */
+	background-color:rgb(57,81,99);
+	background: -webkit-linear-gradient(rgb(135,206,350),rgb(57,81,99)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgb(135,206,350),rgb(57,81,99)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgb(135,206,350),rgb(57,81,99)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgb(135,206,350),rgb(57,81,99)); /* Standard syntax */
 }
 
 #ceremonyrainy .wrapper {

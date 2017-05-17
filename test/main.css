@@ -75,6 +75,7 @@ h2 {
 
 #bg1 {
 	background-image:url(images/BeachPic.jpg);
+	background-position: center;
 	background-size:cover;
 	background-repeat: no-repeat;
 	height:100%;
@@ -122,6 +123,7 @@ h2 {
 	height:100%;
 	float:right;
 	background-image:url(images/TabbyHand.jpg);
+	background-position: center;
 	background-size:cover;
 }
 
@@ -155,6 +157,7 @@ h2 {
 	width:100%;
 	height:100%;
 	background-image: url(images/yellowbg1.png);
+	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
 	z-index: 10;
@@ -183,6 +186,7 @@ h2 {
 	width:100%;
 	height:100%;
 	background-image: url(images/yellowbg2.png);
+	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
 	z-index: 10;
@@ -254,6 +258,7 @@ h2 {
 	height:100%;
 	float:left;
 	background-image: url(images/Lakeview.jpg);
+	background-position: center;
 	background-size:cover;
 	background-repeat: no-repeat;
 }
@@ -262,6 +267,7 @@ h2 {
 	width:100%;
 	height: 100%;
 	background-image: url(images/TreesPic.jpg);
+	background-position: center;
 	background-size:cover;
 	background-repeat: no-repeat;
 	z-index:-1;

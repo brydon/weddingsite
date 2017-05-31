@@ -36,32 +36,156 @@ html, body {
 }
 
 #about-slide {
+  top:100%;
+}
+#abouttext {
+  float:left;
+  background-color:#000;
+  width:50%;
+}
+#aboutpic {
+  float:right;
+  width:50%;
+  height:100%;
   background-image:url("../images/TabbyHand.jpg");
   background-size:cover;
   background-repeat: no-repeat;
 }
 
 #ceremonysunny-slide {
+  top:200%;
+  background-color:rgb(249,184,31);
+	background: -webkit-linear-gradient(rgb(249,184,31), rgb(135,206,350)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgb(249,184,31), rgb(135,206,350)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgb(249,184,31), rgb(135,206,350)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgb(249,184,31), rgb(135,206,350)); /* Standard syntax */
+}
+
+#ceremonysunny-slide #bg {
   background-image:url("../images/yellowbg1.png");
-  background-size:cover;
+  background-size:contain;
   background-repeat: no-repeat;
+  width:100%;
+  height:100%;
+}
+
+#sunnytext {
+  width:50%;
+  float:right;
 }
 
 #ceremonyrainy-slide {
-  background-image:url("../images/yellowbg2.jpg");
-  background-size:cover;
+  top:300%;
+  background-color:rgb(57,81,99);
+	background: -webkit-linear-gradient(rgb(135,206,350),rgb(57,81,99)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgb(135,206,350),rgb(57,81,99)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgb(135,206,350),rgb(57,81,99)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgb(135,206,350),rgb(57,81,99)); /* Standard syntax */
+}
+
+#ceremonyrainy-slide #bg {
+  background-image:url("../images/yellowbg2.png");
+  background-size:contain;
   background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+#rainytext {
+  width:50%;
+  float: left;
 }
 
 #reception-slide {
+  top:400%;
+}
+
+#reception-pic {
   background-image:url("../images/Lakeview.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  width:50%;
+  height:100%;
+  float:left;
+}
+
+#reception-text {
+  width:50%;
+  height:100%;
+  float:right;
+}
+
+#rsvp-slide {
+  top:500%;
+  background-image:url("../images/TreesPic.jpg");
   background-size:cover;
   background-repeat: no-repeat;
 }
 
-#rsvp-slide {
-  background-image:url("../TreesPic.jpg");
-  background-size:cover;
-  background-repeat: no-repeat;
+#rsvp-wrapper {
+  background-color:rgba(0,0,0,0.5);
+  margin-top:50px;
+  margin-left: 25%;
+  width:50%;
+  height:313px;
 }
-#
+
+#rsvp-form {
+    font-family: 'Open Sans Condensed', arial, sans !important;
+    width: 100%;
+		height:100%;
+}
+
+#rsvpform input[type="text"], #rsvpform textarea {
+	color:#fff;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-bottom: 10px;
+  font: 16px Arial, Helvetica, sans-serif;
+  height: 45px;
+}
+
+#rsvpform textarea {
+    resize:none;
+    overflow: hidden;
+		height:60px;
+}
+
+#rsvpform input[type="button"], #rsvpform input[type="submit"] {
+    background-color: #1D7373;
+    border: 1px solid #5CCCCC;
+		margin:15px 5px 0;
+		float:right;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#rsvpform input[type="button"]:hover,
+#rsvpform input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+    background-color:#34CACA;
+}
+
+#rsvpform h2 {
+    background: #4D4D4D;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    color: #FFF;
+		margin:0;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 20px;
+}

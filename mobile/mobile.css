@@ -12,6 +12,39 @@ html, body {
 	vertical-align: baseline;
 }
 
+html, body {
+	color:white;
+	line-height: 1;
+	min-height:100%;
+	font-family: 'Rokkit', serif;
+	font-size:13pt;
+}
+
+p {
+	margin:1em 0;
+	line-height:1.1em;
+}
+
+q {
+	font-style:italic;
+	color:#333;
+}
+
+h1 {
+	font-size:2.91em;
+	margin:10px;
+	font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+
+h2 {
+	color:inherit;
+	font-size:1.91em;
+	margin:0 20px;
+	font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+
 .wrapper {
   margin:0;
   padding:0;
@@ -33,7 +66,7 @@ html, body {
 
 #intro {
   background-color:rgba(0,0,0,0.3);
-  width:230px;
+  width:290px;
 }
 
 #about-slide {
@@ -77,6 +110,21 @@ html, body {
   float:right;
 }
 
+#ceremonysunny-slide a {
+	color:#333;
+	text-decoration: none;
+	font-style: italic;
+	border-bottom: 1px dotted #333;
+	margin-left: 25px;
+}
+
+#ceremonysunny-slide a:hover {
+	color:#000;
+	text-decoration: none;
+	font-style: italic;
+	border-bottom: 1px dotted black;
+}
+
 #ceremonyrainy-slide {
   top:300%;
   background-color:rgb(57,81,99);
@@ -93,6 +141,19 @@ html, body {
   background-position: top left;
   width: 100%;
   height: 100%;
+}
+
+#ceremonyrainy-slide a {
+	color:#d3d3d3;
+	margin-left: 25px;
+	text-decoration: none;
+	font-style: italic;
+	border-bottom: 1px dotted #d3d3d3;
+}
+
+#ceremonyrainy-slide a:hover {
+	color:#fff;
+	border-bottom-color: #fff;
 }
 
 #rainytext {
@@ -119,6 +180,20 @@ html, body {
   height:100%;
   float:right;
 }
+
+#reception-text a {
+	width:100%;
+	color: #d3d3d3;
+	border-bottom:1px dotted #a9a9a9;
+	font-style: italic;
+	text-decoration: none;
+}
+
+#reception-text a:hover {
+	color: #fff;
+	border-bottom:1px dotted #fff;
+}
+
 
 #rsvp-slide {
   top:500%;

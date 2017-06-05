@@ -26,6 +26,7 @@ html, body {
 
 #intro-slide {
   background-image:url("../PickingUp.jpg");
+  background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
 }
@@ -48,6 +49,7 @@ html, body {
   width:50%;
   height:100%;
   background-image:url("../images/TabbyHand.jpg");
+  background-position: left;
   background-size:cover;
   background-repeat: no-repeat;
 }
@@ -63,7 +65,8 @@ html, body {
 
 #ceremonysunny-slide #bg {
   background-image:url("../images/yellowbg1.png");
-  background-size:contain;
+  background-size:cover;
+  background-position: bottom left;
   background-repeat: no-repeat;
   width:100%;
   height:100%;
@@ -85,8 +88,9 @@ html, body {
 
 #ceremonyrainy-slide #bg {
   background-image:url("../images/yellowbg2.png");
-  background-size:contain;
+  background-size:cover;
   background-repeat: no-repeat;
+  background-position: top left;
   width: 100%;
   height: 100%;
 }
@@ -102,6 +106,7 @@ html, body {
 
 #reception-pic {
   background-image:url("../images/Lakeview.jpg");
+  background-position: right;
   background-size:cover;
   background-repeat: no-repeat;
   width:50%;
@@ -118,6 +123,7 @@ html, body {
 #rsvp-slide {
   top:500%;
   background-image:url("../images/TreesPic.jpg");
+  background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
 }

@@ -232,13 +232,18 @@ h2 {
 	padding:75px 30px;
 }
 
+#receptiontext h2 {
+	margin:0;
+}
+
 #receptiontext h1 {
 	text-align:right;
 }
 
 #receptiontext p {
-	text-align:center;
+	text-align:left;
 	width:100%;
+	margin-left: 20px;
 }
 
 #receptiontext a {

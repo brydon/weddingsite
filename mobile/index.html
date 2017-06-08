@@ -12,12 +12,16 @@
 
 <body>
 	<script type="text/javascript">
-	if (window.innerHeight > window.innerWidth) {
-		document.body.className = "portrait"
-	} else {
-		document.body.className = "portrait"
-		//document.body.className = "landscape"
+	function landscape_portrait() {
+		if (window.innerHeight > window.innerWidth) {
+			document.body.className = "portrait"
+		} else {
+			//document.body.className = "portrait"
+			document.body.className = "landscape"
+		}
 	}
+	landscape_portrait();
+	window.addEventListener("deviceorientation", landscape_portrait, true);
 	</script>
 
 	<div id="intro-slide" class="wrapper">

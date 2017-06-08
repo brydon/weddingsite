@@ -101,11 +101,29 @@ h2 {
   background-repeat: no-repeat;
 }
 
+.portrait .outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.portrait .middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.portrait .inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
 .portrait #abouttext {
-  width:90%;
-  min-height:90%;
+  /*width:90%;
   margin-left: 5%;
-  margin-top: 2.5%;
+  margin-top:0;*/
+  padding:10px;
   background-color: rgba(0,0,0,0.8);
 }
 
@@ -196,11 +214,7 @@ h2 {
 }
 
 .portrait #reception-text {
-  width: 90%;
-  min-height: 90%;
-  height: 90%;
-  margin-top: 2.5%;
-  margin-left: 5%;
+  padding:10px;
   background-color: rgba(0,0,0,0.8);
 }
 
@@ -251,7 +265,7 @@ h2 {
 }
 
 .landscape #rsvp-wrapper {
-  background-color:rgba(0,0,0,0.5);
+  background-color:rgba(0,0,0,0.8);
   margin-top:50px;
   margin-left: 25%;
   width:50%;
@@ -259,11 +273,11 @@ h2 {
 }
 
 .portrait #rsvp-wrapper {
-  background-color:rgba(0,0,0,0.5);
-  margin-top:5%;
-  margin-left: 5%;
-  width:90%;
-  height:313px;
+  background-color:rgba(0,0,0,0.8);
+
+
+  //vc
+
 }
 
 #rsvp-form {
@@ -299,6 +313,7 @@ h2 {
     background-color: #1D7373;
     border: 1px solid #5CCCCC;
 		margin:15px 5px 0;
+    margin-top:0;
 		float:right;
     display: inline-block;
     cursor: pointer;

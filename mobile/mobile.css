@@ -20,6 +20,10 @@ html, body {
 	font-size:13pt;
 }
 
+body.portrait {
+  font-size: 22pt;
+}
+
 p {
 	margin:1em 0;
 	line-height:1.1em;
@@ -36,12 +40,19 @@ h1 {
 	font-family: 'Open Sans Condensed', sans-serif !important;
 }
 
+.portrait h1 {
+  font-size:5em;
+}
 
 h2 {
 	color:inherit;
 	font-size:1.91em;
 	margin:0 20px;
 	font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+.portrait h2 {
+  font-size: 3 em;
 }
 
 

@@ -373,3 +373,10 @@ h2 {
     font-weight: 300;
     padding: 20px;
 }
+
+.portrait #rsvpform {
+  font-size:24pt;
+}
+.portrait #h2 {
+  font-size:3em;
+}

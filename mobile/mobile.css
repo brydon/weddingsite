@@ -374,9 +374,9 @@ h2 {
     padding: 20px;
 }
 
-.portrait #rsvpform {
+.portrait #rsvpform input[type="text"], .portrait #rsvpform textarea {
   font-size:24pt;
 }
-.portrait #h2 {
+.portrait #rsvpform #h2 {
   font-size:3em;
 }

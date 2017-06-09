@@ -21,7 +21,7 @@ html, body {
 }
 
 body.portrait {
-  font-size: 24pt;
+  font-size: 1em;
 }
 
 p {
@@ -152,8 +152,8 @@ h2 {
 }
 
 .portrait #ceremonysunny-slide #bg  {
-  background-image:url("../images/DundurnWhite.png")
-  background-size:cover;
+  background-image:url("../images/DundurnWhite.png");
+  background-size:contain;
   background-position: bottom center;
   background-repeat: no-repeat;
   width: 100%;
@@ -199,8 +199,8 @@ h2 {
 }
 
 .portrait #ceremonyrainy-slide #bg  {
-  background-image:url("../images/ChurchWhite.png")
-  background-size:cover;
+  background-image:url("../images/ChurchWhite.png");
+  background-size:contain;
   background-position: bottom center;
   background-repeat: no-repeat;
   width: 100%;
@@ -374,9 +374,9 @@ h2 {
     padding: 20px;
 }
 
-.portrait #rsvpform input[type="text"], .portrait #rsvpform textarea {
-  font-size:24pt;
+.portrait #rsvpform input[type="text"], .portrait #rsvpform textarea, .portrait #rsvpform input[type="button"], .portrait #rsvpform input[type="submit"] {
+  font-size:1em;
 }
-.portrait #rsvpform #h2 {
-  font-size:3em;
+.portrait #rsvpform h2 {
+  font-size:2.5em;
 }

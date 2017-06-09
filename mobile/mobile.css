@@ -21,7 +21,7 @@ html, body {
 }
 
 body.portrait {
-  font-size: 1em;
+  font-size: 100%;
 }
 
 p {

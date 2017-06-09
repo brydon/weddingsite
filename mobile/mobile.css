@@ -81,6 +81,10 @@ h2 {
   width:290px;
 }
 
+.portrait #intro {
+  width:100%;
+}
+
 #about-slide {
   top:100%;
 }
@@ -149,7 +153,7 @@ h2 {
 
 .portrait #ceremonysunny-slide #bg  {
   background-image:url("../images/DundurnWhite.png")
-  background-size:contain;
+  background-size:cover;
   background-position: bottom center;
   background-repeat: no-repeat;
   width: 100%;
@@ -196,7 +200,7 @@ h2 {
 
 .portrait #ceremonyrainy-slide #bg  {
   background-image:url("../images/ChurchWhite.png")
-  background-size:contain;
+  background-size:cover;
   background-position: bottom center;
   background-repeat: no-repeat;
   width: 100%;
